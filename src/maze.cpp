@@ -72,7 +72,7 @@ void Maze::printLastState(){
     printMaze();
 }
 
-void Maze::findTheWay(){
+void Maze::findTheFWay(){
     initMaze();
     int i=0;
     while( !isDone() ){
