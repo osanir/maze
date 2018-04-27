@@ -20,7 +20,7 @@ public:
     void printMaze();   
     void printLastState();
 
-    void findTheFuckinWay();    // tries brute force to reach finish point
+    void findTheWay();    // tries brute force to reach finish point
 
     int checkDirections();  // returns number of directions + Left Right Up Down
     int findDirection();    // returns a direction for move function
