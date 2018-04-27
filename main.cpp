@@ -14,7 +14,7 @@ int main(int argc, char** argv){
     }
 
     Maze maze(size);
-    maze.findTheFuckinWay();
+    maze.findTheWay();
     
     return 0;
 }
